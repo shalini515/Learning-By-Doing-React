@@ -1,0 +1,53 @@
+#root {
+  height: 100vh;
+  /*
+  1vh = 1% of the height of the browser window (the visible part of the screen).
+  So, 100vh = 100% of the visible browser height.
+  height: 100% only works if the parent element has a defined height.
+  */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: #333;
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.card {
+  width: 450px;
+  height: 250px;
+  background-color: rgba(174, 78, 195, 0.951);
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 4px 6px 10px rgb(180, 177, 181);
+}
+.profiles {
+  display: flex;
+  margin-top: 15px;
+  height: 60%;
+  justify-content: space-evenly;
+}
+
+.socials {
+  color: inherit;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.profileImg img{
+  margin-top: 16px;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
