@@ -2,15 +2,20 @@
 
 A personal digital card website built with Vite + React and deployed on Netlify.
 
-## 🚀 Live Demo
+## Live Demo
 [View site on Netlify](https://digital-card-shalini.netlify.app/)
 
-## 🛠 Tech Stack
+## Tech Stack
 - Vite
 - React
 - Netlify (Hosting)
 
-## 📦 How to Run Locally
+## What I Have Learnt
+- JSX
+- Props
+- Components
+
+## How to Run Locally
 
 ```bash
 npm install
