@@ -12,4 +12,5 @@ Here are some of my favourite books that I personally recommend!
 ## What I Have Learnt
 - Component reuse using map()
 - CSS grid, flexbox and responsive design
+- What tabnabbing is and how to prevent it
 
